@@ -4,7 +4,6 @@ function translatePigLatin(str) {
     var firstLetter = str[0];
     if (vowels.includes(firstLetter)) {
         str = str.concat('way');
-        console.log(str)
         return str;
     } else {
         let vowel = str.match(/[aeiou]/g);
